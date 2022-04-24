@@ -1,5 +1,5 @@
-# la-catalog
-Knowledge base for the catalog project.  
+![la catalog logo](res/title.png)  
+Knowledge base for the la-catalog project.  
 
 ## sku scraper
 *temporary until repostiory is created
