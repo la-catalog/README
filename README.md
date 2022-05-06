@@ -1,6 +1,9 @@
 ![la catalog logo](res/title.png)  
 Repositório para organizar projetos e direções gerais do la-catalog.  
 
+# guides
+[Style guide](/STYLE_GUIDE.md)  
+
 # templates
 [Python API](https://github.com/thiagola92/python-api)  
 [Python cron job](https://github.com/thiagola92/python-cronjob)  
