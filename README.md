@@ -22,6 +22,7 @@ Repositório para organizar projetos e direções gerais do la-catalog.
 [page-parser](https://github.com/thiagola92/page-parser)  
 [page-detector](https://github.com/thiagola92/page-detector) *todo*  
 [url-parser](https://github.com/thiagola92/url-parser)  
+[url-builder](https://github.com/thiagola92/url-builder) *todo*  
 [text-utility](https://github.com/thiagola92/text-utility)  
 
 # webpage
