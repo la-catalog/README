@@ -3,6 +3,7 @@ Repositório para organizar projetos e direções gerais do la-catalog.
 
 # guides
 [Style guide](/STYLE_GUIDE.md)  
+[Documentation guide](/DOCUMENTATION_GUIDE.md)
 
 # templates
 [Python API](https://github.com/thiagola92/python-api)  
