@@ -24,10 +24,11 @@ Repositório para organizar projetos e direções gerais do la-catalog.
 [page-detector](https://github.com/thiagola92/page-detector) *todo*  
 [page-fetcher](https://github.com/thiagola92/page-fetcher)  
 [page-parser](https://github.com/thiagola92/page-parser)  
-[page-sender](https://github.com/thiagola92/page-sender) *todo*  
+[page-sender](https://github.com/thiagola92/page-sender)  
+[text-utility](https://github.com/thiagola92/text-utility)  
 [url-builder](https://github.com/thiagola92/url-builder) *todo*  
 [url-parser](https://github.com/thiagola92/url-parser)  
-[text-utility](https://github.com/thiagola92/text-utility)  
+[rabbit-models](https://github.com/thiagola92/rabbit-models)  
 
 # webpage
 [scraper-webpage](https://github.com/thiagola92/scraper-webpage)  
