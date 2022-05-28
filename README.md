@@ -9,11 +9,9 @@ Repositório para organizar projetos e direções gerais do la-catalog.
 [Documentation guide](/DOCUMENTATION_GUIDE.md)
 
 # templates
-[Python API](https://github.com/thiagola92/python-api)  
 [Python cron job](https://github.com/thiagola92/python-cronjob)  
-[Python deployment](https://github.com/thiagola92/python-deployment) *todo*  
+[Python deployment](https://github.com/thiagola92/python-deployment)  
 [Python package](https://github.com/thiagola92/python-package)  
-[Python webpage](https://github.com/thiagola92/python-webpage) *todo*  
 
 # deployment
 [sku-scraper](https://github.com/thiagola92/sku-scraper)  
