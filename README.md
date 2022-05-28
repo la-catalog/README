@@ -1,7 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/thiagola92/la-catalog/raw/main/res/title_dark.png">
-  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/thiagola92/la-catalog/raw/main/res/title_light.png">
-</picture> 
+# README
 Repositório para organizar projetos e direções gerais do la-catalog.  
 
 # guides
@@ -24,7 +21,7 @@ Repositório para organizar projetos e direções gerais do la-catalog.
 [page-parser](https://github.com/thiagola92/page-parser)  
 [page-sender](https://github.com/thiagola92/page-sender)  
 [text-utility](https://github.com/thiagola92/text-utility)  
-[url-builder](https://github.com/thiagola92/url-builder) *todo*  
+[url-builder](https://github.com/thiagola92/url-builder)  
 [url-parser](https://github.com/thiagola92/url-parser)  
 [rabbit-models](https://github.com/thiagola92/rabbit-models)  
 
