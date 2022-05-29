@@ -32,4 +32,4 @@ Repositório para organizar projetos e direções gerais do la-catalog.
 [scraper-webpage](https://github.com/thiagola92/scraper-webpage)  
 
 # references
-<a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Smashicons - Flaticon</a>  
+<a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
