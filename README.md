@@ -21,8 +21,8 @@ Repositório para organizar projetos.
 [page-sku](https://github.com/thiagola92/page-sku)  
 [page-detector](https://github.com/thiagola92/page-detector) *todo*  
 [page-fetcher](https://github.com/thiagola92/page-fetcher)  
+[page-infra](https://github.com/thiagola92/page-infra)  
 [page-parser](https://github.com/thiagola92/page-parser)  
-[page-sender](https://github.com/thiagola92/page-sender)  
 [text-utility](https://github.com/thiagola92/text-utility)  
 [url-builder](https://github.com/thiagola92/url-builder)  
 [url-parser](https://github.com/thiagola92/url-parser)  
