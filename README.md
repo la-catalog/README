@@ -29,7 +29,8 @@ Repositório para organizar projetos.
 [rabbit-models](https://github.com/thiagola92/rabbit-models)  
 
 # webpage
-[scraper-webpage](https://github.com/thiagola92/scraper-webpage)  
+[webpage-scraper](https://github.com/thiagola92/webpage-scraper)  
+[webpage-catalog](https://github.com/thiagola92/webpage-catalog)  
 
 # references
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
