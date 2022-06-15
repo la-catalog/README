@@ -27,6 +27,7 @@ Repositório para organizar projetos.
 [url-builder](https://github.com/thiagola92/url-builder)  
 [url-parser](https://github.com/thiagola92/url-parser)  
 [rabbit-models](https://github.com/thiagola92/rabbit-models)  
+[webpage-components](https://github.com/thiagola92/webpage-components)  
 
 # webpage
 [webpage-scraper](https://github.com/thiagola92/webpage-scraper)  
