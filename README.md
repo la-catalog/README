@@ -18,7 +18,7 @@ Repositório para organizar projetos.
 
 # packages
 [catalog-sku](https://github.com/thiagola92/catalog-sku)  
-[page-sku](https://github.com/thiagola92/page-sku)  
+[page-models](https://github.com/thiagola92/page-models)  
 [page-captcha](https://github.com/thiagola92/page-captcha) *todo*  
 [page-fetcher](https://github.com/thiagola92/page-fetcher)  
 [page-infra](https://github.com/thiagola92/page-infra)  
