@@ -9,29 +9,29 @@ Repositório para organizar projetos.
 [Documentation guide](/DOCUMENTATION_GUIDE.md)
 
 # templates
-[Python cron job](https://github.com/thiagola92/python-cronjob)  
-[Python deployment](https://github.com/thiagola92/python-deployment)  
-[Python package](https://github.com/thiagola92/python-package)  
+[Python cron job](https://github.com/la-catalog/python-cronjob)  
+[Python deployment](https://github.com/la-catalog/python-deployment)  
+[Python package](https://github.com/la-catalog/python-package)  
 
 # deployment
-[page-scraper](https://github.com/thiagola92/page-scraper)  
+[page-scraper](https://github.com/la-catalog/page-scraper)  
 
 # packages
-[catalog-sku](https://github.com/thiagola92/catalog-sku)  
-[page-models](https://github.com/thiagola92/page-models)  
-[page-captcha](https://github.com/thiagola92/page-captcha) *todo*  
-[page-fetcher](https://github.com/thiagola92/page-fetcher)  
-[page-infra](https://github.com/thiagola92/page-infra)  
-[page-parser](https://github.com/thiagola92/page-parser)  
-[text-utility](https://github.com/thiagola92/text-utility)  
-[url-builder](https://github.com/thiagola92/url-builder)  
-[url-parser](https://github.com/thiagola92/url-parser)  
-[rabbit-models](https://github.com/thiagola92/rabbit-models)  
-[webpage-components](https://github.com/thiagola92/webpage-components)  
+[catalog-sku](https://github.com/la-catalog/catalog-sku)  
+[page-models](https://github.com/la-catalog/page-models)  
+[page-captcha](https://github.com/la-catalog/page-captcha) *todo*  
+[page-fetcher](https://github.com/la-catalog/page-fetcher)  
+[page-infra](https://github.com/la-catalog/page-infra)  
+[page-parser](https://github.com/la-catalog/page-parser)  
+[text-utility](https://github.com/la-catalog/text-utility)  
+[url-builder](https://github.com/la-catalog/url-builder)  
+[url-parser](https://github.com/la-catalog/url-parser)  
+[rabbit-models](https://github.com/la-catalog/rabbit-models)  
+[webpage-components](https://github.com/la-catalog/webpage-components)  
 
 # webpage
-[webpage-scraper](https://github.com/thiagola92/webpage-scraper)  
-[webpage-catalog](https://github.com/thiagola92/webpage-catalog)  
+[webpage-scraper](https://github.com/la-catalog/webpage-scraper)  
+[webpage-catalog](https://github.com/la-catalog/webpage-catalog)  
 
 # references
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
