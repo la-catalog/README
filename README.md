@@ -14,7 +14,7 @@ Repositório para organizar projetos.
 [Python package](https://github.com/thiagola92/python-package)  
 
 # deployment
-[sku-scraper](https://github.com/thiagola92/sku-scraper)  
+[page-scraper](https://github.com/thiagola92/page-scraper)  
 
 # packages
 [catalog-sku](https://github.com/thiagola92/catalog-sku)  
