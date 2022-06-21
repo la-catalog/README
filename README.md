@@ -21,10 +21,10 @@ Repositório para organizar projetos.
 
 # packages
 [catalog-sku](https://github.com/la-catalog/catalog-sku)  
-[page-models](https://github.com/la-catalog/page-models)  
 [page-captcha](https://github.com/la-catalog/page-captcha) *todo*  
 [page-fetcher](https://github.com/la-catalog/page-fetcher)  
 [page-infra](https://github.com/la-catalog/page-infra)  
+[page-models](https://github.com/la-catalog/page-models)  
 [page-parser](https://github.com/la-catalog/page-parser)  
 [text-utility](https://github.com/la-catalog/text-utility)  
 [url-builder](https://github.com/la-catalog/url-builder)  
