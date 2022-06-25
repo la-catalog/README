@@ -20,7 +20,7 @@ Repositório para organizar projetos.
 [page-scraper](https://github.com/la-catalog/page-scraper)  
 
 # packages
-[catalog-sku](https://github.com/la-catalog/catalog-sku)  
+[catalog-models](https://github.com/la-catalog/catalog-models)  
 [page-captcha](https://github.com/la-catalog/page-captcha) *todo*  
 [page-fetcher](https://github.com/la-catalog/page-fetcher)  
 [page-infra](https://github.com/la-catalog/page-infra)  
