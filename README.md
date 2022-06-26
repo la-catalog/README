@@ -36,5 +36,5 @@ Repositório para organizar projetos.
 [rabbit-models](https://github.com/la-catalog/rabbit-models)  
 [webpage-components](https://github.com/la-catalog/webpage-components)  
 
-# references
+# credits
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
