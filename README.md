@@ -13,11 +13,15 @@ Repositório para organizar projetos.
 [Python deployment](https://github.com/la-catalog/python-deployment)  
 [Python package](https://github.com/la-catalog/python-package)  
 
-# cron job
+# cron jobs
 [search-filler](https://github.com/la-catalog/search-filler)  
 
-# deployment
+# deployments
 [page-scraper](https://github.com/la-catalog/page-scraper)  
+
+### webpages
+[webpage-scraper](https://github.com/la-catalog/webpage-scraper)  
+[webpage-catalog](https://github.com/la-catalog/webpage-catalog)  
 
 # packages
 [catalog-models](https://github.com/la-catalog/catalog-models)  
@@ -31,10 +35,6 @@ Repositório para organizar projetos.
 [url-parser](https://github.com/la-catalog/url-parser)  
 [rabbit-models](https://github.com/la-catalog/rabbit-models)  
 [webpage-components](https://github.com/la-catalog/webpage-components)  
-
-# webpage
-[webpage-scraper](https://github.com/la-catalog/webpage-scraper)  
-[webpage-catalog](https://github.com/la-catalog/webpage-catalog)  
 
 # references
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
