@@ -36,6 +36,22 @@ Repositório para a organização de informações.
 [rabbit-models](https://github.com/la-catalog/rabbit-models)  
 [webpage-components](https://github.com/la-catalog/webpage-components)  
 
+# tools
+[Airbyte](https://airbyte.com/)  
+[Ansible](https://www.ansible.com/)  
+[Discord](https://discord.com/)  
+[FastAPI](https://fastapi.tiangolo.com/)  
+[InfluxDB](https://www.influxdata.com/)  
+[Meilisearch](https://www.meilisearch.com/)  
+[Metabase](https://www.metabase.com/)  
+[MongoDB](https://www.mongodb.com/)  
+[PostreSQL](https://www.postgresql.org/)  
+[Proxy.py](https://abhinavsingh.com/proxy-py-a-lightweight-single-file-http-proxy-server-in-python/)  
+[RabbitMQ](https://rabbitmq.com/)  
+[Redis](https://redis.io/)  
+[Streamlit](https://streamlit.io/)  
+[Svelte](https://svelte.dev/)  
+
 # credits
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
 <a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Smashicons - Flaticon</a>  
