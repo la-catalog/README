@@ -37,7 +37,6 @@ Repositório para a organização de informações.
 [webpage-components](https://github.com/la-catalog/webpage-components)  
 
 # tools
-[n8n](https://n8n.io/)  
 [Ansible](https://www.ansible.com/)  
 [Discord](https://discord.com/)  
 [FastAPI](https://fastapi.tiangolo.com/)  
