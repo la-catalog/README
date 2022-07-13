@@ -5,8 +5,9 @@
 Repositório para a organização de informações.  
 
 # guides
+[Documentation guide](/DOCUMENTATION_GUIDE.md)  
+[Setup guide](/SETUP_GUIDE.md)  
 [Style guide](/STYLE_GUIDE.md)  
-[Documentation guide](/DOCUMENTATION_GUIDE.md)
 
 # templates
 [Python cron job](https://github.com/la-catalog/python-cronjob)  
