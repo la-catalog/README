@@ -1,6 +1,13 @@
 # setup guide
 Estes são os passos necessários para que seu computador esteja em ambiente de desenvolvimento.  
-Busque o seu sistema operacional e siga o passo a passo dele.  
+Busque o seu sistema operacional e veja o passo a passo dele.  
+
+Você é livre para usar outras ferramentas desde que não afetem em nada a organização. Condições:  
+- Sua ferramenta não gera nenhum arquivo extra no repositório. 👍  
+- Sua ferramenta não força adição de linhas nos arquivos para o funcionamento dela. 👍  
+- Sua ferramenta não força outras pessoas a terem ela para executar o código. 👍  
+
+(ferramentas novas são sempre negociáveis)
 
 ## ubuntu
 
