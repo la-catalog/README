@@ -50,7 +50,6 @@ Repositório para a organização de informações.
 [RabbitMQ](https://rabbitmq.com/)  
 [Redis](https://redis.io/)  
 [Streamlit](https://streamlit.io/)  
-[Svelte](https://svelte.dev/)  
 
 # credits
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
