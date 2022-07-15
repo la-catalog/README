@@ -1,6 +1,6 @@
 # setup guide
-Estes são os passos necessários para que seu computador esteja em ambiente de desenvolvimento.  
-Busque o seu sistema operacional e veja o passo a passo dele.  
+Este arquivo agrupa todas as instalações ou ações necessárias para que seu computador esteja em ambiente de desenvolvimento no *la catalog*.  
+Se sinta livre para não instalar qualquer coisa que não seja necessária para você.  
 
 Você é livre para usar outras ferramentas desde que não afetem a organização. Condições:  
 - Sua ferramenta não gera nenhum arquivo extra no repositório. 👍  
@@ -8,6 +8,12 @@ Você é livre para usar outras ferramentas desde que não afetem a organizaçã
 - Sua ferramenta não força outras pessoas a terem ela para executar o código. 👍  
 
 (ferramentas novas são sempre negociáveis)
+
+## windows
+TODO
+
+## macos
+TODO
 
 ## ubuntu
 
