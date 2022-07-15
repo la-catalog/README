@@ -8,7 +8,7 @@ Este guia é uma lista de convenções adotadas para como se escrever código/do
   - Git commits  
 - Português é usado para explicar detalhes em documentações  
 
-# documentation
+## documentation
 - Todo repositório tem que ter o arquivo [README.md](https://en.wikipedia.org/wiki/README)  
   - Esse arquivo deve explicar **apenas** aquele repositório  
   - Esse arquivo não deve entrar em detalhes de repositórios filhos  
