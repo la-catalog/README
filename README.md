@@ -5,7 +5,6 @@
 Repositório para a organização de informações.  
 
 # guides
-[Documentation guide](/DOCUMENTATION_GUIDE.md)  
 [Setup guide](/SETUP_GUIDE.md)  
 [Style guide](/STYLE_GUIDE.md)  
 
