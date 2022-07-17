@@ -5,7 +5,8 @@
 Repositório para a organização de informações.  
 
 # guides
-[Setup guide](/SETUP_GUIDE.md)  
+[Setup guide (dev)](/SETUP_GUIDE_DEV.md)  
+[Setup guide (server)](/SETUP_GUIDE_SERVER.md)  
 [Style guide](/STYLE_GUIDE.md)  
 
 # templates
