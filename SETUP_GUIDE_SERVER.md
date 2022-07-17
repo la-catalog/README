@@ -1,6 +1,7 @@
 # setup guide
 Este arquivo possui tudo necessário para conseguir levantar o(s) server(s) para rodarem *la catalog*.  
 
+# containers
 ```yaml
 services:
     mongo:
@@ -71,4 +72,16 @@ services:
             - "3000:3000"
         volumes:
             - ~/docker_vol/metabase:/metabase-data
+```
+
+# runners
+
+```bash
+cd ~/Documents
+mkdir actions-runner && cd actions-runner
+curl -o actions-runner-linux-x64-2.294.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.294.0/actions-runner-linux-x64-2.294.0.tar.gz
+echo "a19a09f4eda5716e5d48ba86b6b78fc014880c5619b9dba4a059eaf65e131780  actions-runner-linux-x64-2.294.0.tar.gz" | shasum -a 256 -c
+tar xzf ./actions-runner-linux-x64-2.294.0.tar.gz
+./config.sh --url https://github.com/la-catalog --token ACHLNPVCFIFVUKTI3AS5PSLC2OHWC
+./run.sh
 ```
