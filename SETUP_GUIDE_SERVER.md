@@ -65,13 +65,6 @@ services:
             DOCKER_INFLUXDB_INIT_BUCKET: first_bucket
         volumes:
             - ~/docker_vol/influx:/var/lib/influxdb2
-    metabase:
-        container_name: metabase
-        image: metabase/metabase
-        ports:
-            - "3000:3000"
-        volumes:
-            - ~/docker_vol/metabase:/metabase-data
 ```
 
 # runners
