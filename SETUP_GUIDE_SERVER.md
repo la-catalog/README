@@ -14,8 +14,8 @@ services:
         ports:
             - "27017:27017"
         environment:
-            MONGO_INITDB_ROOT_USERNAME: username
-            MONGO_INITDB_ROOT_PASSWORD: password
+            MONGO_INITDB_ROOT_USERNAME: lacatalog
+            MONGO_INITDB_ROOT_PASSWORD: lamongo
         volumes:
             - ~/docker_vol/mongo:/data/db
     postgres:
@@ -24,17 +24,17 @@ services:
         ports:
             - "5432:5432"
         environment:
-            POSTGRES_USER: username
-            POSTGRES_PASSWORD: password
+            POSTGRES_USER: lacatalog
+            POSTGRES_PASSWORD: lapostgres
         volumes:
             - ~/docker_vol/postgres:/var/lib/postgresql/data
-    meilisearch:
+    meili:
         container_name: meilisearch
         image: getmeili/meilisearch
         ports:
             - "7700:7700"
         environment:
-            MEILI_MASTER_KEY: password
+            MEILI_MASTER_KEY: lameili
         volumes:
             - ~/docker_vol/meilisearch:/data.ms
     rabbit:
@@ -45,8 +45,8 @@ services:
             - "5672:5672"
             - "15672:15672"
         environment:
-            RABBITMQ_DEFAULT_USER: username
-            RABBITMQ_DEFAULT_PASS: password
+            RABBITMQ_DEFAULT_USER: lacatalog
+            RABBITMQ_DEFAULT_PASS: larabbit
             RABBITMQ_DEFAULT_VHOST: "/"
         volumes:
             - ~/docker_vol/rabbit:/var/lib/rabbitmq
@@ -63,10 +63,10 @@ services:
         ports:
             - "8086:8086"
         environment:
-            DOCKER_INFLUXDB_INIT_USERNAME: username
-            DOCKER_INFLUXDB_INIT_PASSWORD: password
-            DOCKER_INFLUXDB_INIT_ORG: fake_org
-            DOCKER_INFLUXDB_INIT_BUCKET: first_bucket
+            DOCKER_INFLUXDB_INIT_USERNAME: lacatalog
+            DOCKER_INFLUXDB_INIT_PASSWORD: lainflux
+            DOCKER_INFLUXDB_INIT_ORG: la-catalog
+            DOCKER_INFLUXDB_INIT_BUCKET: la-bucket
         volumes:
             - ~/docker_vol/influx:/var/lib/influxdb2
 ```
