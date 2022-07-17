@@ -13,7 +13,7 @@ tar xzf ./actions-runner-linux-x64-2.294.0.tar.gz
 ./run.sh
 ```
 
-# containers
+# docker-compose
 ```yaml
 services:
     mongo:
