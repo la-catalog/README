@@ -51,6 +51,13 @@ Repositório para a organização de informações.
 [Redis](https://redis.io/)  
 [Streamlit](https://streamlit.io/)  
 
+# license
+Tudo dentro da organização é confidencial e é proibida a cópia de qualquer arquivo que esteja dentro dela, por qualquer que seja o meio sem que tenha autorização prévia do fundador da organização.  
+Escrito por Thiago Lages de Alencar <thiagola92@gmail.com>, Julho 2022  
+
+# notes
+A organização é criada com base em muitos projetos open-source e por isso incentivamos desenvolvedores a criarem código da mesma maneira. Por isso se deve apenas utilizar a organização para o que realmente precisa ser privado para o *la catalog*, qualquer outro código que não seja fundamental para a organização deve ser desenvolvido fora da organização.  
+
 # credits
 <a href="https://www.flaticon.com/free-icons/education" title="education icons">Education icons created by Freepik - Flaticon</a>  
 <a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Smashicons - Flaticon</a>  
