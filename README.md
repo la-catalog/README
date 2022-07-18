@@ -26,6 +26,7 @@ Repositório para a organização de informações.
 
 # packages
 [catalog-models](https://github.com/la-catalog/catalog-models)  
+[catalog-infra](https://github.com/la-catalog/catalog-infra) *todo*  
 [page-captcha](https://github.com/la-catalog/page-captcha) *todo*  
 [page-fetcher](https://github.com/la-catalog/page-fetcher)  
 [page-infra](https://github.com/la-catalog/page-infra)  
