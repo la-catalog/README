@@ -53,4 +53,5 @@ echo "3.10.5" > ~/.python-version
 curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
 $HOME/.local/bin/pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 $HOME/.local/bin/pdm plugin add pdm-bump
+$HOME/.local/bin/pdm --pep582 >> ~/.bash_profile
 ```
