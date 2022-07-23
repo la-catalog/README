@@ -1,5 +1,6 @@
 # setup guide
 Este arquivo possui tudo necessário para conseguir levantar o(s) server(s) para rodarem *la catalog*.  
+**Observação**: Como a organização em si é só uma experiência, esses setings podem não ser os melhores atualmente (nem os mais seguros)  
 
 # runner
 Na raiz da organização crie um runner para executar as actions.  
@@ -66,7 +67,7 @@ services:
             DOCKER_INFLUXDB_INIT_USERNAME: lacatalog
             DOCKER_INFLUXDB_INIT_PASSWORD: lainflux
             DOCKER_INFLUXDB_INIT_ORG: la-catalog
-            DOCKER_INFLUXDB_INIT_BUCKET: la-bucket
+            DOCKER_INFLUXDB_INIT_BUCKET: la-catalog
         volumes:
             - ~/docker_vol/influx:/var/lib/influxdb2
 ```
