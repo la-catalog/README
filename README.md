@@ -1,8 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/la-catalog/README/raw/main/res/readme_dark.png">
-  <img alt="Shows an illustrated sun in light color mode and a moon with stars in dark color mode." src="https://github.com/la-catalog/README/raw/main/res/readme_light.png">
-</picture>  
-Repositório para a organização de informações.  
+
+<div align="center">
+  <img src="./res/memo.png"><br/>
+  Repositório para a organização de informações.
+</div>
 
 # guides
 [Setup guide (dev)](/SETUP_GUIDE_DEV.md)  
