@@ -47,6 +47,7 @@
 [Meilisearch](https://www.meilisearch.com/)  
 [Metabase](https://www.metabase.com/)  
 [MongoDB](https://www.mongodb.com/)  
+[PDM](https://pdm.fming.dev/latest/)  
 [PostreSQL](https://www.postgresql.org/)  
 [Proxy.py](https://abhinavsingh.com/proxy-py-a-lightweight-single-file-http-proxy-server-in-python/)  
 [RabbitMQ](https://rabbitmq.com/)  
