@@ -3,7 +3,7 @@ Este guia é uma lista de convenções adotadas para como se escrever código/do
   
 ## language
 - Inglês é a principal lingua do projeto. Se espera encontrar ela para:  
-  - Titulos de documentação  
+  - Titulos em documentações  
   - Códigos em geral  
   - Git commits  
 - Português é usado para explicar detalhes em documentações  
