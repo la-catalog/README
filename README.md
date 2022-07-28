@@ -53,10 +53,5 @@
 [Redis](https://redis.io/)  
 [Streamlit](https://streamlit.io/)  
 
-# license
-Tudo dentro da organização é confidencial e é proibida a cópia de qualquer arquivo que esteja dentro dela, por qualquer que seja o meio, sem que tenha autorização prévia do fundador da organização.  
-
-Escrito por Thiago Lages de Alencar \<thiagola92@gmail.com\>, Julho 2022  
-
 # notes
-A organização é criada com base em muitos projetos open-source e por isso incentivamos desenvolvedores a criarem código da mesma maneira. Por isso deve-se recomendamos usar a organização apenas para o que realmente precisa ser privado para o *la catalog*, qualquer outro código que não seja fundamental para a organização pode ser desenvolvido fora da organização.  
+A organização é criada com base em muitos projetos open-source e por isso incentivamos desenvolvedores a criarem código da mesma maneira. Por isso recomendamos usar a organização apenas para o que realmente precisa ser privado para o *la catalog*, qualquer outro código que não seja fundamental para a organização pode ser desenvolvido fora da organização.  
