@@ -34,4 +34,4 @@ Descrição sobre o ambiente utilizado quando o bug ocorrer. Exemplos:
 - Versão do navegador: 103.3 / 99.5
 
 ## Additional context
-Qualquer informação extra que você queira adicionar sobre o bug.
+Qualquer informação adicional que queira compartilhar sobre o bug.
