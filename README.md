@@ -9,34 +9,13 @@
 [Setup guide (server)](/SETUP_GUIDE_SERVER.md)  
 [Style guide](/STYLE_GUIDE.md)  
 
-# templates
-[Python cron job](https://github.com/la-catalog/python-cronjob)  
-[Python deployment](https://github.com/la-catalog/python-deployment)  
-[Python package](https://github.com/la-catalog/python-package)  
-
-# cron jobs
-[search-filler](https://github.com/la-catalog/search-filler)  
-
-# deployments
-[page-scraper](https://github.com/la-catalog/page-scraper)  
-
-### webpages
-[webpage-scraper](https://github.com/la-catalog/webpage-scraper)  
-[webpage-catalog](https://github.com/la-catalog/webpage-catalog)  
-
-# packages
-[catalog-models](https://github.com/la-catalog/catalog-models)  
-[catalog-infra](https://github.com/la-catalog/catalog-infra) *todo*  
-[page-captcha](https://github.com/la-catalog/page-captcha) *todo*  
-[page-fetcher](https://github.com/la-catalog/page-fetcher)  
-[page-infra](https://github.com/la-catalog/page-infra)  
-[page-models](https://github.com/la-catalog/page-models)  
-[page-parser](https://github.com/la-catalog/page-parser)  
-[text-utility](https://github.com/la-catalog/text-utility)  
-[url-builder](https://github.com/la-catalog/url-builder)  
-[url-parser](https://github.com/la-catalog/url-parser)  
-[rabbit-models](https://github.com/la-catalog/rabbit-models)  
-[webpage-components](https://github.com/la-catalog/webpage-components)  
+# topics
+[Cron job](https://github.com/search?q=org%3Ala-catalog+topic%3Acronjob&type=all)  
+[Deployment](https://github.com/search?q=org%3Ala-catalog+topic%3Adeployment&type=all)  
+[Package](https://github.com/search?q=org%3Ala-catalog+topic%3Apackage&type=all)  
+[Python](https://github.com/search?q=org%3Ala-catalog+topic%3Apython&type=all)  
+[Template](https://github.com/search?q=org%3Ala-catalog+topic%3Atemplate&type=all)  
+[Terraform](https://github.com/search?q=org%3Ala-catalog+topic%3Aterraform&type=all)  
 
 # tools
 [Ansible](https://www.ansible.com/)  
