@@ -1,6 +1,6 @@
 
 <div align="center">
-  <h1>🧭 README</h1>
+  <h1 style="font-size: 80px">🧭 README</h1>
 </div>
 
 ## guides
