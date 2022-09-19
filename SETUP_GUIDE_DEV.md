@@ -54,5 +54,4 @@ curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py 
 $HOME/.local/bin/pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 $HOME/.local/bin/pdm --pep582 >> ~/.bash_profile
 $HOME/.local/bin/pdm config python.use_venv false
-$HOME/.local/bin/pdm plugin add pdm-bump
 ```
