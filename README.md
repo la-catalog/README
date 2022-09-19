@@ -28,6 +28,7 @@
 [MongoDB](https://www.mongodb.com/)  
 [PDM](https://pdm.fming.dev/latest/)  
 [PostreSQL](https://www.postgresql.org/)  
+[Prefect](https://www.prefect.io/)  
 [Proxy.py](https://abhinavsingh.com/proxy-py-a-lightweight-single-file-http-proxy-server-in-python/)  
 [RabbitMQ](https://rabbitmq.com/)  
 [Redis](https://redis.io/)  
