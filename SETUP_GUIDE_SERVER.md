@@ -53,4 +53,12 @@ services:
             DOCKER_INFLUXDB_INIT_PASSWORD: ${INFLUX_PASS}
             DOCKER_INFLUXDB_INIT_ORG: la-catalog
             DOCKER_INFLUXDB_INIT_BUCKET: la-catalog
+    vault:
+        container_name: vault
+        image: vault
+        ports:
+            - "8200:8200"
+        environment:
+            VAULT_DEV_ROOT_TOKEN_ID: ${VAULT_TOKEN}
+            VAULT_DEV_LISTEN_ADDRESS: 0.0.0.0:8200
 ```
