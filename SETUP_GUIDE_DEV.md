@@ -54,7 +54,7 @@ curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py 
 $HOME/.local/bin/pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 $HOME/.local/bin/pdm --pep582 >> ~/.bash_profile
 $HOME/.local/bin/pdm config python.use_venv false
-$HOME/.local/bin/pdm config repository.lacatalog.url ${PYPI_URL}
-$HOME/.local/bin/pdm config repository.lacatalog.username ${PYPI_USER}
-$HOME/.local/bin/pdm config repository.lacatalog.password ${PYPI_PASS}
+$HOME/.local/bin/pdm config repository.la-catalog.url ${PYPI_URL}
+$HOME/.local/bin/pdm config repository.la-catalog.username ${PYPI_USER}
+$HOME/.local/bin/pdm config repository.la-catalog.password ${PYPI_PASS}
 ```
