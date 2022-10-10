@@ -57,5 +57,5 @@ $HOME/.local/bin/pdm config python.use_venv false
 $HOME/.local/bin/pdm config repository.la-catalog.url ${PYPI_URL}
 $HOME/.local/bin/pdm config repository.la-catalog.username ${PYPI_USER}
 $HOME/.local/bin/pdm config repository.la-catalog.password ${PYPI_PASS}
-$HOME/.local/bin/pdm plugin add pdm-bump
+$HOME/.local/bin/pdm plugin add pdm-version
 ```
