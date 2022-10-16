@@ -41,9 +41,9 @@ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev li
 sudo curl https://pyenv.run | bash;
 echo "
 # pyenv
-export PATH=\"~/.pyenv/bin:\$PATH\"
-eval \"\$(pyenv init --path)\"
-eval \"\$(pyenv virtualenv-init -)\"
+export PYENV_ROOT=\"\$HOME/.pyenv\"
+command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
+eval \"\$(pyenv init -)\"
 " >> ~/.bashrc;
 source ~/.bashrc
 pyenv install --force 3.10.5;
