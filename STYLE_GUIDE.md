@@ -1,5 +1,5 @@
 # style guide
-Este guia é uma lista de convenções adotadas para como se escrever código/documentação/perguntas durante o projeto.  
+Este guia é uma lista de convenções adotadas para como se escrever código/documentação/perguntas/sugestões durante o projeto.  
   
 ## language
 - Inglês é a principal lingua do projeto. Se espera encontrar ela para:  
@@ -22,12 +22,49 @@ Este guia é uma lista de convenções adotadas para como se escrever código/do
 - Utilize [Mermaid Markdown](https://mermaid-js.github.io/mermaid/#/) para [diagramas](https://en.wikipedia.org/wiki/Diagram)  
   - Motivo: imagens não são fáceis de alterar (normalmente envolve em compartilhar algum arquivo antes de exportar para imagem)  
 
-## questions
-- Utilizamos as [issues](https://docs.github.com/en/issues) dos repositórios para perguntas e respostas  
-  - A issue deve ser criada no repositório aonde a dúvida se originou  
-  - Antes de criar, procure saber se a mesma pergunta já ocorreu em outra issue e foi respondida  
-    - Se a pergunta ocorreu mas não foi respondida, reviva a pergunta dentro daquela issue  
-- O repositório para perguntas gerais é o mesmo onde esta documentação se encontra  
+## issues
+- Utilizamos as [issues](https://docs.github.com/en/issues) dos repositórios como principal modo de comunicação oficial  
+- A issue deve ser criada no repositório relacionado ao assunto  
+  - Se é um bug na API, crie no repositório da API  
+  - Se é uma sugestão para um cron job, crie no repositório do cron job  
+  - Caso não esteja relacionado a nenhum repositório, escolha o repositório onde este arquivo se encontra  
+- Antes de criar, procure saber se a mesma issue já foi criada e se foi respondida  
+  - Se foi criada mas não foi respondida, reviva a pergunta dentro daquela issue  
+- Adicione uma das labels existentes na issue  
+
+## labels
+- Bug
+- Enhancement
+- Feature
+- Problem
+- Refactor
+- Clean
+- Question
+
+```mermaid
+graph TD
+    exist[existe na organização?]
+    broken[está quebrado?]
+    solvable[sabemos como criar?]
+    improvment[melhora a desempenho?]
+    breakable[pode quebrar?]
+
+    exist --> |Sim| broken
+    exist --> |Não| solvable
+    exist --> |Não sei| Question
+
+    broken --> |Sim| Bug
+    broken --> |Não| improvment
+
+    improvment --> |Sim| Enhancement
+    improvment --> |Não| breakable
+
+    breakable --> |Sim| Refactor
+    breakable --> |Não| Clean
+
+    solvable --> |Sim| Feature
+    solvable --> |Não| Problem
+```
 
 ## software design
 - Em questões de [input/output](https://en.wikipedia.org/wiki/Input/output)  
