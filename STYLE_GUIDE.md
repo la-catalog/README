@@ -54,7 +54,7 @@ graph TD
     exist[existe na organização?]
     broken[está quebrado?]
     solvable[sabemos como criar?]
-    improvment[melhora a desempenho?]
+    improvment[melhora o desempenho?]
     breakable[pode quebrar?]
 
     exist --> |Sim| broken
