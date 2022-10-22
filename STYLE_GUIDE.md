@@ -3,10 +3,10 @@ Este guia é uma lista de convenções adotadas para como se escrever código/do
   
 ## language
 - Inglês é a principal lingua do projeto. Se espera encontrar ela para:  
-  - Titulos em documentações  
+  - Titulos em documentações/issues  
   - Códigos em geral  
   - Git commits  
-- Português é usado para explicar detalhes em documentações  
+- Português é usado para textos que requerem mais clareza (documentações, issues, conversas)  
 - Ninguém é perfeito então não espere encontrar gramática perfeita de ninguém, não importa o idioma.  
   - Não tenha medo de corrigir outros e de escrever algo errado, estamos todos aqui para aprender e melhorar  
   - O foco é caminhar para algo que muitos possam ler e entender  
@@ -18,7 +18,7 @@ Este guia é uma lista de convenções adotadas para como se escrever código/do
   - Explicação para um repositório deve ficar no [README.md](https://en.wikipedia.org/wiki/README)  
 - Todo repositório tem que ter o arquivo README.md  
   - Esse arquivo deve explicar **apenas** aquele repositório  
-  - Esse arquivo não deve entrar em detalhes de repositórios filhos  
+  - Esse arquivo não deve entrar em detalhes de outros repositórios da organização  
 - Utilize [Mermaid Markdown](https://mermaid-js.github.io/mermaid/#/) para [diagramas](https://en.wikipedia.org/wiki/Diagram)  
   - Motivo: imagens não são fáceis de alterar (normalmente envolve em compartilhar algum arquivo antes de exportar para imagem)  
 
