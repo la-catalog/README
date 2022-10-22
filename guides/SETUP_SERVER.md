@@ -1,5 +1,5 @@
-# setup guide
-Este arquivo possui tudo necessário para conseguir levantar as ferramentas necessárias para rodar *la catalog* localmente.  
+# setup server
+Este arquivo possui tudo necessário para conseguir levantar as ferramentas necessárias da organização localmente.  
 
 # docker-compose
 ```yaml

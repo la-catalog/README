@@ -1,9 +1,9 @@
-# setup guide
-Este arquivo agrupa todas as instalações ou ações necessárias para que seu computador esteja em ambiente de desenvolvimento no *la catalog*.  
+# setup dev
+Este arquivo agrupa todas as instalações ou ações necessárias para que seu computador esteja em ambiente de desenvolvimento na organização.  
 Se sinta livre para não instalar qualquer coisa que não seja necessária para você.  
 
 Você é livre para usar outras ferramentas desde que não afetem a organização. Condições:  
-- Sua ferramenta não gera nenhum arquivo extra no repositório. 👍  
+- Sua ferramenta não gera nenhum arquivo extra no repositório do GitHub. 👍  
 - Sua ferramenta não força adição de linhas nos arquivos para o funcionamento dela. 👍  
 - Sua ferramenta não força outras pessoas a terem ela para executar o código. 👍  
 
@@ -54,8 +54,5 @@ curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py 
 $HOME/.local/bin/pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 $HOME/.local/bin/pdm --pep582 >> ~/.bash_profile
 $HOME/.local/bin/pdm config python.use_venv false
-$HOME/.local/bin/pdm config repository.la-catalog.url ${PYPI_URL}
-$HOME/.local/bin/pdm config repository.la-catalog.username ${PYPI_USER}
-$HOME/.local/bin/pdm config repository.la-catalog.password ${PYPI_PASS}
 $HOME/.local/bin/pdm plugin add pdm-version
 ```
