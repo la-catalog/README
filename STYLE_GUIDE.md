@@ -33,16 +33,24 @@ Este guia é uma lista de convenções adotadas para como se escrever código/do
 - Adicione uma das labels existentes na issue  
 
 ## labels
-- Bug
-- Enhancement
-- Feature
-- Problem
-- Refactor
-- Clean
-- Question
+- ⚠️ Bug
+- 💎 Enhancement
+- 🚀 Feature
+- 🚩 Problem
+- ♻️ Refactor
+- 🧼 Clean
+- ❓ Question
 
 ```mermaid
 graph TD
+    Bug["⚠️ Bug"]
+    Enhancement["💎 Enhancement"]
+    Feature["🚀 Feature"]
+    Problem["🚩 Problem"]
+    Refactor["♻️ Refactor"]
+    Clean["🧼 Clean"]
+    Question["❓ Question"]
+
     exist[existe na organização?]
     broken[está quebrado?]
     solvable[sabemos como criar?]
