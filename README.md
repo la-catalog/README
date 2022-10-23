@@ -5,10 +5,15 @@
   </picture>
 </div>
 
-## guides
-[Setup (dev)](guides/SETUP_DEV.md)  
-[Setup (server)](guides/SETUP_SERVER.md)  
-[Style guide](guides/STYLE_GUIDE.md)  
+## guidelines
+Diretrizes que informam como determinado assunto deve ser tratado.  
+
+[Issue](guides/ISSUE.md)  
+[Setup (dev)](guidelines/SETUP_DEV.md)  
+[Setup (server)](guidelines/SETUP_SERVER.md)  
+[Style guide](guidelines/STYLE_GUIDE.md)  
+
+**Atenção**: Eles não são tutoriais! São práticas adotadas dentro da organização.  
 
 ## topics
 [Cron job](https://github.com/search?q=org%3Ala-catalog+topic%3Acronjob&type=all)  
