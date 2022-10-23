@@ -38,6 +38,12 @@ Labels e exemplos de uso:
     - Atualização de documentação
     - Atualização de comentário no código
 - ❓ Question
+  - Está perdido ou confuso? Precisa de ajuda? Essa label é justamente para quando você possui uma dúvida
+    - Não escreva sugestões em formato de dúvidas. Todos estes casos podem cair dentro das outras labels e serem discutidos na issue se valem a pena ou não:
+      - "Não seria melhor fazer A em vez de B?"
+      - "Se usarmos arquitetura X o nosso código não vai ser mais rápido?"
+      - "Por que não implementamos Y?"
+    
 
 ```mermaid
 graph TD
