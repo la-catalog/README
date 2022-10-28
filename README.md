@@ -6,16 +6,16 @@
 </div>
 
 ## guidelines
-Diretrizes que informam como determinado assunto deve ser tratado.  
+Diretrizes que informam como determinados assuntos devem ser tratado dentro da organização.  
 
-[Issue](guides/ISSUE.md)  
+[Issue](guidelines/ISSUE.md)  
 [Setup (dev)](guidelines/SETUP_DEV.md)  
 [Setup (server)](guidelines/SETUP_SERVER.md)  
 [Style guide](guidelines/STYLE_GUIDE.md)  
 
-**Atenção**: Eles não são tutoriais! São práticas adotadas dentro da organização.  
-
 ## topics
+Tópicos ajudam a organizar repositórios dentro de categorias.  
+
 [Cron job](https://github.com/search?q=org%3Ala-catalog+topic%3Acronjob&type=all)  
 [Deployment](https://github.com/search?q=org%3Ala-catalog+topic%3Adeployment&type=all)  
 [Package](https://github.com/search?q=org%3Ala-catalog+topic%3Apackage&type=all)  
@@ -24,6 +24,8 @@ Diretrizes que informam como determinado assunto deve ser tratado.
 [Terraform](https://github.com/search?q=org%3Ala-catalog+topic%3Aterraform&type=all)  
 
 ## tools
+Menções a ferramentas utilizadas dentro da organização.  
+
 [Ansible?](https://www.ansible.com/)  
 [Discord](https://discord.com/)  
 [FastAPI](https://fastapi.tiangolo.com/)  
@@ -41,4 +43,4 @@ Diretrizes que informam como determinado assunto deve ser tratado.
 [Vault](https://www.vaultproject.io/)  
 
 ## notes
-A organização é criada com base em muitos projetos open-source e por isso incentivamos desenvolvedores a criarem código da mesma maneira. Por isso recomendamos usar a organização apenas para o que realmente precisa ser privado, qualquer outro código que não seja fundamental para a organização pode ser desenvolvido fora da organização.  
+A organização é criada com base em muitos projetos open-source e por isso incentivamos desenvolvedores a criarem código da mesma maneira. Recomendamos usar a organização apenas para o que realmente precisa ser privado, qualquer outro código que não seja fundamental para a organização pode ser desenvolvido fora da organização.  
