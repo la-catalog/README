@@ -9,6 +9,7 @@
 Diretrizes que informam como determinados assuntos devem ser tratado dentro da organização.  
 
 [Issue](guidelines/ISSUE.md)  
+[Language](guidelines/LANGUAGE.md)  
 [Setup (dev)](guidelines/SETUP_DEV.md)  
 [Setup (server)](guidelines/SETUP_SERVER.md)  
 [Style guide](guidelines/STYLE_GUIDE.md)  
