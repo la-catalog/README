@@ -1,0 +1,12 @@
+# documentation
+- A idéia é deixar a documentação o mais próxima possível de onde ela é usada e evitar repetição de documentação  
+  - Explicação para uma linha do código deve ficar comentado a cima da linha  
+  - Explicação para uma função do código deve ficar escrita no [docstring](https://en.wikipedia.org/wiki/Docstring)/[docblock](https://en.wikipedia.org/wiki/Docblock) da função  
+  - Explicação para um repositório deve ficar no [README.md](https://en.wikipedia.org/wiki/README)  
+- Todo repositório deve ter o arquivo README.md na raiz  
+  - Esse arquivo deve explicar **apenas** aquele repositório  
+  - Esse arquivo não deve entrar em detalhes de outros repositórios da organização  
+    - Isso quer dizer que não deve explicar outros pacotes/bibliotecas da organização  
+    - Mas pode indicar ao leitor à leitura de outros repositórios  
+- Utilize [Mermaid Markdown](https://mermaid-js.github.io/mermaid/#/) para [diagramas](https://en.wikipedia.org/wiki/Diagram)  
+  - Motivo: imagens não são fáceis de alterar (normalmente envolve em compartilhar algum arquivo antes de exportar para imagem)  
