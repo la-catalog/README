@@ -1,15 +1,5 @@
 # style guide
 Este guia é uma lista de convenções adotadas para como se escrever código/documentação/perguntas/sugestões durante o projeto.  
-  
-## language
-- Inglês é a principal lingua do projeto. Se espera encontrar ela para:  
-  - Titulos em documentações/issues  
-  - Códigos em geral  
-  - Git commits  
-- Português é usado para textos que requerem mais clareza (documentações, issues, conversas)  
-- Ninguém é perfeito então não espere encontrar gramática perfeita de ninguém, não importa o idioma.  
-  - Não tenha medo de corrigir outros e de escrever algo errado, estamos todos aqui para aprender e melhorar  
-  - O foco é caminhar para algo que muitos possam ler e entender  
 
 ## documentation
 - A idéia é deixar a documentação o mais próxima possível de onde ela é usada e evitar repetição de documentação  
