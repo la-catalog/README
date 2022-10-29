@@ -11,10 +11,10 @@ Diretrizes que informam como determinados assuntos devem ser tratado dentro da o
 [Documentation](guidelines/DOCUMENTATION.md)  
 [Issue](guidelines/ISSUE.md)  
 [Language](guidelines/LANGUAGE.md)  
+[Python](guidelines/PYTHON.md)  
 [Setup (dev)](guidelines/SETUP_DEV.md)  
 [Setup (server)](guidelines/SETUP_SERVER.md)  
 [Software design](guidelines/SOFTWARE_DESIGN.md)  
-[Style guide](guidelines/STYLE_GUIDE.md)  
 
 ## topics
 Tópicos ajudam a organizar repositórios dentro de categorias.  
