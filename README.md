@@ -8,6 +8,7 @@
 ## guidelines
 Diretrizes que informam como determinados assuntos devem ser tratado dentro da organização.  
 
+[Documentation](guidelines/DOCUMENTATION.md)  
 [Issue](guidelines/ISSUE.md)  
 [Language](guidelines/LANGUAGE.md)  
 [Setup (dev)](guidelines/SETUP_DEV.md)  
