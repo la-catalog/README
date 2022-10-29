@@ -44,7 +44,7 @@ Labels e exemplos de uso:
       - "Se usarmos arquitetura X o nosso código não vai ser mais rápido?"
       - "Por que não implementamos Y?"
     
-
+## graph
 ```mermaid
 graph TD
     Bug["⚠️ Bug"]
