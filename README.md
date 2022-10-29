@@ -13,6 +13,7 @@ Diretrizes que informam como determinados assuntos devem ser tratado dentro da o
 [Language](guidelines/LANGUAGE.md)  
 [Setup (dev)](guidelines/SETUP_DEV.md)  
 [Setup (server)](guidelines/SETUP_SERVER.md)  
+[Software design](guidelines/SOFTWARE_DESIGN.md)  
 [Style guide](guidelines/STYLE_GUIDE.md)  
 
 ## topics
