@@ -19,6 +19,7 @@ Diretrizes que informam como determinados assuntos devem ser tratado dentro da o
 ## topics
 Tópicos ajudam a organizar repositórios dentro de categorias.  
 
+[API](https://github.com/search?q=org%3Ala-catalog+topic%3Aapi&type=all)  
 [Cron job](https://github.com/search?q=org%3Ala-catalog+topic%3Acronjob&type=all)  
 [Deployment](https://github.com/search?q=org%3Ala-catalog+topic%3Adeployment&type=all)  
 [Package](https://github.com/search?q=org%3Ala-catalog+topic%3Apackage&type=all)  
