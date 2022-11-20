@@ -44,6 +44,7 @@ Menções a ferramentas utilizadas dentro da organização.
 [RabbitMQ](https://rabbitmq.com/)  
 [Redis](https://redis.io/)  
 [Streamlit](https://streamlit.io/)  
+[Trufflehog](https://trufflesecurity.com/)  
 [Vault](https://www.vaultproject.io/)  
 
 ## notes
