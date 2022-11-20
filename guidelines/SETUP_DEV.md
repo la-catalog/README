@@ -19,34 +19,34 @@ TODO
 
 ```bash
 # git
-sudo apt install -y git;
+sudo apt install -y git
 
 # curl
-sudo apt install -y curl;
+sudo apt install -y curl
 
 # docker + docker compose
-sudo apt install -y ca-certificates curl gnupg lsb-release;
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg;
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null;
-sudo apt update;
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin;
-sudo groupadd docker;
-sudo usermod -aG docker $USER;
+sudo apt install -y ca-certificates curl gnupg lsb-release
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update
+sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo groupadd docker
+sudo usermod -aG docker $USER
 
 # zero tier
-curl -s https://install.zerotier.com | sudo bash;
+curl -s https://install.zerotier.com | sudo bash
 
 # pyenv
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git;
-sudo curl https://pyenv.run | bash;
+sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git
+sudo curl https://pyenv.run | bash
 echo "
 # pyenv
 export PYENV_ROOT=\"\$HOME/.pyenv\"
 command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
 eval \"\$(pyenv init -)\"
-" >> ~/.bashrc;
+" >> ~/.bashrc
 source ~/.bashrc
-pyenv install --force 3.10.5;
+pyenv install --force 3.10.5
 echo "3.10.5" > ~/.python-version
 
 # pdm
@@ -57,10 +57,18 @@ $HOME/.local/bin/pdm config python.use_venv false
 $HOME/.local/bin/pdm plugin add pdm-version
 
 # terraform
-sudo apt-get install -y gnupg software-properties-common;
-wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg;
-gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint;
-echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list;
-sudo apt update;
-sudo apt-get install -y terraform;
+sudo apt-get install -y gnupg software-properties-common
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update
+sudo apt-get install -y terraform
+
+# github command line interface
+type -p curl >/dev/null
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg
+sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+sudo apt update
+sudo apt install gh -y
 ```
