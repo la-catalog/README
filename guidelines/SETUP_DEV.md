@@ -72,3 +72,28 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 
 ## windows
 TODO
+
+# directory structure
+
+## macos
+
+## ubuntu
+```bash
+mkdir api
+mkdir "cron job"
+mkdir deployment
+mkdir package
+mkdir template
+mkdir terraform
+mkdir utility
+
+gh search repos --owner la-catalog --topic api --json fullName > api.json
+gh search repos --owner la-catalog --topic cronjob --json fullName > cron_job.json
+gh search repos --owner la-catalog --topic deployment --json fullName > deployment.json
+gh search repos --owner la-catalog --topic package --json fullName > package.json
+gh search repos --owner la-catalog --topic template --json fullName > template.json
+gh search repos --owner la-catalog --topic terraform --json fullName > terraform.json
+gh search repos --owner la-catalog --topic utility --json fullName > utility.json
+```
+
+## windows
