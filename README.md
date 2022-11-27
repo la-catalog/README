@@ -26,6 +26,7 @@ Tópicos ajudam a organizar repositórios dentro de categorias.
 [Python](https://github.com/search?q=org%3Ala-catalog+topic%3Apython&type=all)  
 [Template](https://github.com/search?q=org%3Ala-catalog+topic%3Atemplate&type=all)  
 [Terraform](https://github.com/search?q=org%3Ala-catalog+topic%3Aterraform&type=all)  
+[Utility](https://github.com/search?q=org%3Ala-catalog+topic%3Autility&type=all)  
 
 ## tools
 Menções a ferramentas utilizadas dentro da organização.  
