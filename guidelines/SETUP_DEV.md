@@ -97,6 +97,7 @@ gh search repos --owner la-catalog --topic template --json fullName > template.j
 gh search repos --owner la-catalog --topic terraform --json fullName > terraform.json
 gh search repos --owner la-catalog --topic utility --json fullName > utility.json
 
+# remove templates from others topics
 python -c "
 import json
 from pathlib import Path
