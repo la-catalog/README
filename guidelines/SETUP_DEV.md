@@ -79,6 +79,7 @@ TODO
 
 ## ubuntu
 ```bash
+# create directories
 mkdir api
 mkdir "cron job"
 mkdir deployment
@@ -87,6 +88,7 @@ mkdir template
 mkdir terraform
 mkdir utility
 
+# search repositories
 gh search repos --owner la-catalog --topic api --json fullName > api.json
 gh search repos --owner la-catalog --topic cronjob --json fullName > cron_job.json
 gh search repos --owner la-catalog --topic deployment --json fullName > deployment.json
@@ -94,6 +96,25 @@ gh search repos --owner la-catalog --topic package --json fullName > package.jso
 gh search repos --owner la-catalog --topic template --json fullName > template.json
 gh search repos --owner la-catalog --topic terraform --json fullName > terraform.json
 gh search repos --owner la-catalog --topic utility --json fullName > utility.json
+
+python -c "
+import json
+from pathlib import Path
+
+template = json.loads(Path('template.json').read_text())
+
+def remove_templates(path):
+    content = json.loads(Path(path).read_text())
+    content = [i for i in content if i not in template]
+    Path(path).write_text(json.dumps(content))
+
+remove_templates('api.json')
+remove_templates('cron_job.json')
+remove_templates('deployment.json')
+remove_templates('package.json')
+remove_templates('terraform.json')
+remove_templates('utility.json')
+"
 ```
 
 ## windows
