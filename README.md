@@ -9,11 +9,12 @@
 Diretrizes que informam como determinados assuntos devem ser tratado dentro da organização.  
 
 [Documentation](guidelines/DOCUMENTATION.md)  
+[Install (dev)](guidelines/INSTALL_DEV.md)  
+[Install (server)](guidelines/INSTALL_SERVER.md)  
 [Issue](guidelines/ISSUE.md)  
 [Language](guidelines/LANGUAGE.md)  
 [Python](guidelines/PYTHON.md)  
-[Setup (dev)](guidelines/SETUP_DEV.md)  
-[Setup (server)](guidelines/SETUP_SERVER.md)  
+[Setup directory](guidelines/SETUP_DIRECTORY.md)  
 [Software design](guidelines/SOFTWARE_DESIGN.md)  
 
 ## topics
