@@ -9,9 +9,6 @@ Você é livre para usar outras ferramentas desde que não afetem a organizaçã
 
 (ferramentas novas são sempre negociáveis)
 
-## windows
-TODO
-
 ## macos
 TODO
 
@@ -64,3 +61,6 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update
 sudo apt-get install -y terraform
 ```
+
+## windows
+TODO
