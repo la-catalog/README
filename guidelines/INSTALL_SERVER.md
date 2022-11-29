@@ -21,7 +21,7 @@ services:
             POSTGRES_USER: ${POSTGRES_USER}
             POSTGRES_PASSWORD: ${POSTGRES_PASS}
     meili:
-        container_name: meilisearch
+        container_name: meili
         image: getmeili/meilisearch
         ports:
             - "7700:7700"
