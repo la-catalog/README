@@ -54,6 +54,7 @@ services:
             DOCKER_INFLUXDB_INIT_ORG: la-catalog
             DOCKER_INFLUXDB_INIT_BUCKET: la-catalog
     vault:
+        # TODO: not remove data when stop
         container_name: vault
         image: vault
         ports:
