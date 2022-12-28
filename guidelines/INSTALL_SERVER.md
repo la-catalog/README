@@ -1,6 +1,8 @@
 # setup server
 Este arquivo possui tudo necessário para conseguir levantar as ferramentas necessárias da organização localmente.  
 
+**Atenção**: [Fazer a instalação como dev primeiro](./INSTALL_DEV.md)
+
 # docker-compose
 ```yaml
 services:
