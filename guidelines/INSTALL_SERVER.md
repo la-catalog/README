@@ -55,8 +55,11 @@ services:
             DOCKER_INFLUXDB_INIT_PASSWORD: ${INFLUX_PASS}
             DOCKER_INFLUXDB_INIT_ORG: la-catalog
             DOCKER_INFLUXDB_INIT_BUCKET: la-catalog
+```
+
+```yaml
+# TODO: not remove data when the container stop
     vault:
-        # TODO: not remove data when stop
         container_name: vault
         image: vault
         ports:
