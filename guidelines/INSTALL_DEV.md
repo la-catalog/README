@@ -43,8 +43,8 @@ command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
 eval \"\$(pyenv init -)\"
 " >> ~/.bashrc
 source ~/.bashrc
-pyenv install --force 3.10.5
-echo "3.10.5" > ~/.python-version
+pyenv install --force 3.11.0
+echo "3.11.0" > ~/.python-version
 
 # pdm
 curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
