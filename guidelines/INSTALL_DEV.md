@@ -1,4 +1,4 @@
-# install dev
+# install
 Este arquivo agrupa todas as instalações ou ações necessárias para que seu computador esteja em ambiente de desenvolvimento na organização.  
 Se sinta livre para não instalar qualquer coisa que não seja necessária para você.  
 
