@@ -1,7 +1,8 @@
 # setup server
-Este arquivo possui tudo necessário para conseguir levantar as ferramentas necessárias da organização localmente.  
+Este arquivo possui tudo necessário para conseguir levantar o server da organização localmente ou em uma máquina externa.  
 
-**Atenção**: [Fazer a instalação como dev primeiro](./INSTALL_DEV.md)
+**Atenção**: [Fazer a instalação como dev primeiro](./INSTALL_DEV.md)  
+**Recomendação**: [Copiar a chave para o server](https://askubuntu.com/questions/4830/easiest-way-to-copy-ssh-keys-to-another-machine)  
 
 # docker-compose
 ```yaml
