@@ -41,8 +41,8 @@ echo "
 export PYENV_ROOT=\"\$HOME/.pyenv\"
 command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
 eval \"\$(pyenv init -)\"
-" >> ~/.bashrc
-source ~/.bashrc
+" >> ~/.bash_profile
+source ~/.bash_profile
 pyenv install --force 3.11.0
 echo "3.11.0" > ~/.python-version
 
@@ -51,8 +51,8 @@ curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py 
 echo "
 # pdm
 export PATH=/home/thiagola92/.local/bin:\$PATH
-" >> ~/.bashrc
-source ~/.bashrc
+" >> ~/.bash_profile
+source ~/.bash_profile
 pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 pdm --pep582 >> ~/.bash_profile
 pdm config python.use_venv false
