@@ -44,9 +44,9 @@ eval \"\$(pyenv init -)\"
 " >> ~/.bash_profile
 source ~/.bash_profile
 pyenv install --force 3.11.0
-echo "3.11.0" > ~/.python-version
 
 # pdm
+sudo apt install python3-venv -y
 curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
 echo "
 # pdm
