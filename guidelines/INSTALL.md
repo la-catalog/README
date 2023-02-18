@@ -36,27 +36,23 @@ curl -s https://install.zerotier.com | sudo bash
 # pyenv
 sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev git
 sudo curl https://pyenv.run | bash
-PYENV_START="
+echo "
 # pyenv
 export PYENV_ROOT=\"\$HOME/.pyenv\"
 command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
 eval \"\$(pyenv init -)\"
-"
-echo $PYENV_START >> ~/.bash_profile
-echo $PYENV_START >> ~/.bashrc
+" | tee -a ~/.bash_profile ~/.bashrc
 source ~/.bash_profile
 pyenv install --force 3.11.0
 
 # pdm
 sudo apt install python3-venv -y
 curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
-PDM_START="
+echo "
 # pdm
 export PATH=/home/thiagola92/.local/bin:\$PATH
-"
-echo $PDM_START >> ~/.bash_profile
-echo $PDM_START >> ~/.bashrc
-source ~/.bash_profile
+" | tee -a ~/.bash_profile ~/.bashrc
+source ~/.bashrc
 pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 pdm --pep582 >> ~/.bash_profile
 pdm config python.use_venv false
