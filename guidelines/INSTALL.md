@@ -12,8 +12,51 @@ Você é livre para usar outras ferramentas desde que não afetem a organizaçã
 ## macos
 TODO
 
-## ubuntu
+## fedora
+```bash
+# git
+sudo dnf install -y git
 
+# curl
+sudo dnf install -y curl
+
+# zero tier
+curl -s https://install.zerotier.com | sudo bash
+
+# pyenv
+sudo dnf install make gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel libuuid-devel gdbm-devel libnsl2-devel
+sudo curl https://pyenv.run | bash
+echo "
+# pyenv
+export PYENV_ROOT=\"\$HOME/.pyenv\"
+command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
+eval \"\$(pyenv init -)\"
+" | tee -a ~/.bash_profile ~/.bashrc
+source ~/.bash_profile
+pyenv install --force 3.11.0
+
+# pdm
+curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
+echo "
+# pdm
+export PATH=/home/thiagola92/.local/bin:\$PATH
+" | tee -a ~/.bash_profile ~/.bashrc
+source ~/.bashrc
+pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
+pdm --pep582 >> ~/.bash_profile
+pdm config python.use_venv false
+pdm plugin add pdm-version
+
+# terraform
+sudo dnf install -y dnf-plugins-core
+sudo dnf config-manager --add-repo https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
+sudo dnf -y install terraform
+
+# github command line interface
+sudo dnf install -y gh
+```
+
+## ubuntu
 ```bash
 # git
 sudo apt install -y git
