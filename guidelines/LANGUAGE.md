@@ -3,7 +3,9 @@
   - Titulos em documentações/issues  
   - Códigos em geral  
   - Git commits  
-- Português é usado para textos que requerem mais clareza (explicações de documentações, explicações em issues, conversas)  
+- Português é usado para textos que requerem mais clareza e não batem com as condições acima
+  - Explicações em documentações
+  - Explicações em issues
+  - Conversas em issues 
 - Ninguém é perfeito então não espere encontrar gramática perfeita de ninguém, não importa o idioma.  
-  - Não tenha medo de corrigir outros ou de escrever algo errado, estamos todos aqui para melhorar  
-  - O foco é caminhar para algo que muitos possam ler e entender  
+  - Não tenha medo de corrigir outros ou de escrever algo errado
