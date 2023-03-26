@@ -32,7 +32,7 @@ Labels e exemplos de uso:
 - ♻️ Refactor
   - Alteração no código que possuem foco em melhorar legibilidade e entendimento
     - Troca de `while` por `for in`
-    - Adilçao de tipagem no código python
+    - Adição de tipagem no código
 - 🧼 Clean
   - Alteração em textos que não afetam o código
     - Atualização de documentação
