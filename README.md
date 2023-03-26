@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/la-catalog/readme/raw/main/res/white.png">
-    <img src="https://github.com/la-catalog/readme/raw/main/res/black.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./res/white.png">
+    <img src="./res/black.png">
   </picture>
 </div>
 
