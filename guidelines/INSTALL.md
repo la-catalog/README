@@ -38,6 +38,7 @@ pyenv install --force 3.11.0
 # poetry
 curl -sSL https://install.python-poetry.org | python3 -
 poetry completions bash >> ~/.bash_completion
+poetry config virtualenvs.in-project true
 
 # terraform
 sudo dnf install -y dnf-plugins-core
@@ -83,6 +84,7 @@ pyenv install --force 3.11.0
 # poetry
 curl -sSL https://install.python-poetry.org | python3 -
 poetry completions bash >> ~/.bash_completion
+poetry config virtualenvs.in-project true
 
 # terraform
 sudo apt-get install -y gnupg software-properties-common
