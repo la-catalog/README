@@ -95,8 +95,6 @@ export PATH=/home/thiagola92/.local/bin:\$PATH
 " | tee -a ~/.bash_profile ~/.bashrc
 source ~/.bashrc
 pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
-pdm --pep582 >> ~/.bash_profile
-pdm config python.use_venv false
 pdm plugin add pdm-version
 
 # terraform
