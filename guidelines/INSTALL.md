@@ -35,15 +35,9 @@ eval \"\$(pyenv init -)\"
 source ~/.bash_profile
 pyenv install --force 3.11.0
 
-# pdm
-curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
-echo "
-# pdm
-export PATH=/home/thiagola92/.local/bin:\$PATH
-" | tee -a ~/.bash_profile ~/.bashrc
-source ~/.bashrc
-pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
-pdm plugin add pdm-version
+# poetry
+curl -sSL https://install.python-poetry.org | python3 -
+poetry completions bash >> ~/.bash_completion
 
 # terraform
 sudo dnf install -y dnf-plugins-core
@@ -86,16 +80,9 @@ eval \"\$(pyenv init -)\"
 source ~/.bash_profile
 pyenv install --force 3.11.0
 
-# pdm
-sudo apt install python3-venv -y
-curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
-echo "
-# pdm
-export PATH=/home/thiagola92/.local/bin:\$PATH
-" | tee -a ~/.bash_profile ~/.bashrc
-source ~/.bashrc
-pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
-pdm plugin add pdm-version
+# poetry
+curl -sSL https://install.python-poetry.org | python3 -
+poetry completions bash >> ~/.bash_completion
 
 # terraform
 sudo apt-get install -y gnupg software-properties-common
