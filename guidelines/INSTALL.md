@@ -35,10 +35,12 @@ eval \"\$(pyenv init -)\"
 source ~/.bash_profile
 pyenv install --force 3.11.0
 
-# poetry
-curl -sSL https://install.python-poetry.org | python3 -
-poetry completions bash >> ~/.bash_completion
-poetry config virtualenvs.in-project true
+# pdm
+sudo apt install python3-venv -y
+curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
+source ~/.bashrc
+pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
+pdm plugin add pdm-version
 
 # terraform
 sudo dnf install -y dnf-plugins-core
@@ -81,10 +83,12 @@ eval \"\$(pyenv init -)\"
 source ~/.bash_profile
 pyenv install --force 3.11.0
 
-# poetry
-curl -sSL https://install.python-poetry.org | python3 -
-poetry completions bash >> ~/.bash_completion
-poetry config virtualenvs.in-project true
+# pdm
+sudo apt install python3-venv -y
+curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
+source ~/.bashrc
+pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
+pdm plugin add pdm-version
 
 # terraform
 sudo apt-get install -y gnupg software-properties-common
