@@ -39,6 +39,7 @@ pyenv install --force 3.11.0
 sudo apt install python3-venv -y
 curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
 source ~/.bashrc
+export PATH=$HOME/.local/bin:$PATH
 pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
 pdm plugin add pdm-version
 
