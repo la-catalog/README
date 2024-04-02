@@ -1,8 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./res/white.png">
-    <img src="./res/black.png">
-  </picture>
+  <img src="./res/image.svg">
 </div>
 
 ## guidelines
