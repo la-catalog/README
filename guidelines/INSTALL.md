@@ -12,49 +12,6 @@ Você é livre para usar outras ferramentas desde que não afetem a organizaçã
 ## macos
 TODO
 
-## fedora
-```bash
-# git
-sudo dnf install -y git
-
-# curl
-sudo dnf install -y curl
-
-# zero tier
-curl -s https://install.zerotier.com | sudo bash
-
-# pyenv
-sudo dnf install make gcc zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel tk-devel libffi-devel xz-devel libuuid-devel gdbm-devel libnsl2-devel
-sudo curl https://pyenv.run | bash
-echo "
-# pyenv
-export PYENV_ROOT=\"\$HOME/.pyenv\"
-command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
-eval \"\$(pyenv init -)\"
-" | tee -a ~/.bash_profile ~/.bashrc
-source ~/.bash_profile
-pyenv install --force 3.11.0
-
-# pdm
-sudo apt install python3-venv -y
-curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
-echo "
-# pdm
-export PATH=/home/thiagola92/.local/bin:\$PATH
-" | tee -a ~/.bash_profile ~/.bashrc
-source ~/.bashrc
-pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
-pdm plugin add pdm-version
-
-# terraform
-sudo dnf install -y dnf-plugins-core
-sudo dnf config-manager --add-repo https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
-sudo dnf -y install terraform
-
-# github command line interface
-sudo dnf install -y gh
-```
-
 ## ubuntu
 ```bash
 # git
@@ -63,44 +20,24 @@ sudo apt install -y git
 # curl
 sudo apt install -y curl
 
-# docker + docker compose
-sudo apt install -y ca-certificates curl gnupg lsb-release
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-sudo apt update
-sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-sudo groupadd docker
-sudo usermod -aG docker $USER
+# podman
+sudo nala install -y podman;
 
-# zero tier
+# zerotier
 curl -s https://install.zerotier.com | sudo bash
 
-# pyenv
-sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget llvm libedit-dev xz-utils tk-dev libffi-dev liblzma-dev git
-sudo curl https://pyenv.run | bash
-echo "
-# pyenv
-export PYENV_ROOT=\"\$HOME/.pyenv\"
-command -v pyenv >/dev/null || export PATH=\"\$PYENV_ROOT/bin:\$PATH\"
-eval \"\$(pyenv init -)\"
-" | tee -a ~/.bash_profile ~/.bashrc
-source ~/.bash_profile
-pyenv install --force 3.11.0
-
 # pdm
-sudo apt install python3-venv -y
-curl -sSL https://raw.githubusercontent.com/pdm-project/pdm/main/install-pdm.py | python3 -
+sudo nala install -y python3-venv;
+curl -sSL https://pdm-project.org/install-pdm.py | python3 -;
 echo "
 # pdm
-export PATH=/home/thiagola92/.local/bin:\$PATH
-" | tee -a ~/.bash_profile ~/.bashrc
-source ~/.bashrc
-pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion
-pdm plugin add pdm-version
+export PATH=~/.local/bin:\$PATH" | tee -a ~/.bash_profile ~/.bashrc;
+source ~/.bashrc;
+pdm completion bash | sudo tee /etc/bash_completion.d/pdm.bash-completion;
 
 # terraform
 sudo apt-get install -y gnupg software-properties-common
-wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
 gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update
