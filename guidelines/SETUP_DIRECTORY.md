@@ -27,7 +27,7 @@ def setup_topic(topic):
     repositories = [i for i in repositories if i not in templates]
 
     for repo in repositories:
-        subprocess.run(f"cd {topic}; gh repo clone {repo['fullName']}", shell=True)
+        subprocess.run(f"cd {topic}; gh repo clone {repo['fullName']} -- --filter=blob:none --recurse-submodules", shell=True)
 
     subprocess.run(f"rm {path}", shell=True)
 
