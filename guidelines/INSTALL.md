@@ -21,13 +21,13 @@ sudo apt install -y git
 sudo apt install -y curl
 
 # podman
-sudo nala install -y podman;
+sudo apt install -y podman;
 
 # zerotier
 curl -s https://install.zerotier.com | sudo bash
 
 # pdm
-sudo nala install -y python3-venv;
+sudo apt install -y python3-venv;
 curl -sSL https://pdm-project.org/install-pdm.py | python3 -;
 echo "
 # pdm
