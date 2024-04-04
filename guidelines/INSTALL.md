@@ -20,7 +20,7 @@ sudo apt install -y git
 # curl
 sudo apt install -y curl
 
-# podman
+# docker
 sudo apt-get install -y ca-certificates curl
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
